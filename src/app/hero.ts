@@ -1,4 +1,6 @@
-export class Hero {
-    id: number | undefined;
-    name: string | undefined;
+export interface Hero {
+  id: number;
+  name: string;
 }
+
+
